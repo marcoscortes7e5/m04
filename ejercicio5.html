@@ -3,54 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <title>Ejercicio 5</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
 </head>
 <body>
     <header>Tabla de análisis de ventas</header>
     <table>
-        <thead>
         <tr>
-            <td>Año</td>
-            <td>N-3</td>
-            <td>N-2</td>
-            <td>N-1</td>
-            <td>N</td>
-            <td>Año</td>	
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Producto A</td>
-            <td>-</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-            <td>Producto A</td>	
+            <th rowspan="2">
+                AÑO
+            </th>
+            <th colspan="5">
+                Expansión de ventas
+            </th>
         </tr>
         <tr>
-            <td>Producto B</td>
-            <td>-</td>
-            <td>5</td>
-            <td>4</td>
-            <td>7</td>
-            <td>Producto B</td>	
+            <th>
+                Producto A
+            </th>
+            <th>
+                Producto B
+            </th>
+            <th>
+                Producto C
+            </th>
+            <th>
+                Producto D
+            </th>
         </tr>
         <tr>
-            <td>Producto C</td>
-            <td>-</td>
-            <td>8</td>
-            <td>7</td>
-            <td>6</td>
-            <td>Producto C</td>	
+            <th>
+                N-3
+            </th>
+            <td>
+                -
+            </td>
+            <td>
+                -
+            </td>
+            <td>
+                -
+            </td>
+            <td>
+                -
+            </td>
         </tr>
         <tr>
-            <td>Producto D</td>
-            <td>-</td>
-            <td>4</td>
-            <td>3</td>
-            <td>2</td>
-            <td>Producto D</td>	
+            <th>
+                N-2
+            </th>
+            <td>
+                3
+            </td>
+            <td>
+                5
+            </td>
+            <td>
+                8
+            </td>
+            <td>
+                4
+            </td>
         </tr>
-        </tbody>
+        <tr>
+            <th>
+                N-1
+            </th>
+            <td>
+                4
+            </td>
+            <td>
+                4
+            </td>
+            <td>
+                7
+            </td>
+            <td>
+                3
+            </td>
+        </tr>
+        <tr>
+            <th>
+                N
+            </th>
+            <td>
+                5
+            </td>
+            <td>
+                7
+            </td>
+            <td>
+                6
+            </td>
+            <td>
+                2
+            </td>
+        </tr>
+        <tr>
+            <th rowspan="3">
+                AÑO
+            </th>
+        </tr>
+        <tr>
+            <th>
+                Producto A
+            </th>
+            <th>
+                Producto B
+            </th>
+            <th>
+                Producto C
+            </th>
+            <th>
+                Producto D
+            </th>
+        </tr>
+        <tr>
+        <th colspan="5">
+            Expansión de ventas
+        </th>
+        </tr>
     </table>
 </body>
 </html>
