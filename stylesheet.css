@@ -12,3 +12,7 @@ p span{
 ol{
     list-style-type: upper-roman;
 }
+h2{
+    color: grey;
+    text-decoration: underline grey;
+}
